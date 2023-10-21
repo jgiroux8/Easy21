@@ -11,7 +11,7 @@ The code base functions off a configuration file (config.json), which specifies 
 * "run\_MC": 1,
 * "run\_sarsa": 1
 
-The "run" fields are Boolean flags to run specific algorithms. If the MC algorithm is not run, only certain Sarsa plots will be generated. The code will run Sarsa($\lambda$) for all values specified. Generated figures will be placed in the newly created Figures folder. If the folder already exists, \textit{i.e.}, you have run the code before, it will overwrite existing files or create new ones in the folder depending on the configuration. Once the configuration file has been set, the code can be run with the following command:
+The "run" fields are Boolean flags to run specific algorithms. If the MC algorithm is not run, only certain Sarsa plots will be generated. The code will run Sarsa($\lambda$) for all values specified. Generated figures will be placed in the newly created Figures folder. If the folder already exists, i.e., you have run the code before, it will overwrite existing files or create new ones in the folder depending on the configuration. Once the configuration file has been set, the code can be run with the following command:
 
 
 python run.py --config config.json
